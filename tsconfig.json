@@ -1,15 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "sourceMap": true,
-    "outDir": "dist",
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    // "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "lib": ["es2017"],
-  // "include": ["src/**/*"]
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "esnext",
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": false,
+        "lib": ["esnext"]
+    },
+    "include": ["src/**/*"]
 }
